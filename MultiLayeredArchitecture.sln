@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PresentationLayer", "D:\Akhil Mittal\Blogs\3\SourceCode\PresentationLayer\", "{BCE2E0EC-1E5F-4842-B5DA-86A809F62C1C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/PresentationLayer"
+		Debug.AspNetCompiler.PhysicalPath = "PresentationLayer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PresentationLayer\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PresentationLayer"
+		Release.AspNetCompiler.PhysicalPath = "PresentationLayer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PresentationLayer\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49189"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{28071A16-836F-4F78-8BFE-96C981936080} = {28071A16-836F-4F78-8BFE-96C981936080}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicLayer", "BusinessLogicLayer", "{EA3882F8-28A9-444F-B759-5D92C72ACC13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{CA03CB1A-1F81-4517-BBD2-CC68C55EDEC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer", "{97E517F9-6784-47A3-A0C4-3DCB46878E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "D:\Akhil Mittal\Blogs\3\SourceCode\BLL\BLL.csproj", "{28071A16-836F-4F78-8BFE-96C981936080}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2688945B-CCB5-4487-B293-A14A3128B49C} = {2688945B-CCB5-4487-B293-A14A3128B49C}
+		{2FC37BB1-B219-455C-8301-5710855BD715} = {2FC37BB1-B219-455C-8301-5710855BD715}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "D:\Akhil Mittal\Blogs\3\SourceCode\Common\Common.csproj", "{2FC37BB1-B219-455C-8301-5710855BD715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "D:\Akhil Mittal\Blogs\3\SourceCode\DAL\DAL.csproj", "{2688945B-CCB5-4487-B293-A14A3128B49C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2FC37BB1-B219-455C-8301-5710855BD715} = {2FC37BB1-B219-455C-8301-5710855BD715}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE2E0EC-1E5F-4842-B5DA-86A809F62C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE2E0EC-1E5F-4842-B5DA-86A809F62C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE2E0EC-1E5F-4842-B5DA-86A809F62C1C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE2E0EC-1E5F-4842-B5DA-86A809F62C1C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{28071A16-836F-4F78-8BFE-96C981936080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28071A16-836F-4F78-8BFE-96C981936080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28071A16-836F-4F78-8BFE-96C981936080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28071A16-836F-4F78-8BFE-96C981936080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC37BB1-B219-455C-8301-5710855BD715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC37BB1-B219-455C-8301-5710855BD715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC37BB1-B219-455C-8301-5710855BD715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC37BB1-B219-455C-8301-5710855BD715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2688945B-CCB5-4487-B293-A14A3128B49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2688945B-CCB5-4487-B293-A14A3128B49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2688945B-CCB5-4487-B293-A14A3128B49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2688945B-CCB5-4487-B293-A14A3128B49C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28071A16-836F-4F78-8BFE-96C981936080} = {EA3882F8-28A9-444F-B759-5D92C72ACC13}
+		{2688945B-CCB5-4487-B293-A14A3128B49C} = {CA03CB1A-1F81-4517-BBD2-CC68C55EDEC8}
+		{2FC37BB1-B219-455C-8301-5710855BD715} = {97E517F9-6784-47A3-A0C4-3DCB46878E9B}
+	EndGlobalSection
+EndGlobal
